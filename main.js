@@ -50,6 +50,7 @@ window.onload = function () {
       $('.dot-item.active').classList.remove('active');
       dotItems[index].classList.add('active');
     }
+
     function handleSlider(dir) {
       if (dir === 1) {
         if (index >= sliderLength - 1) {
